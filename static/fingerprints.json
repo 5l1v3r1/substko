@@ -1,0 +1,646 @@
+[
+	{
+		"service":"acquia",
+		"status": "Edge Case",
+		"cname":[
+			"acquia.com",
+			"acquia-test.co"
+		], 
+		"fingerprint":[
+			"The site you are looking for could not be found.",
+			"If you are an Acquia Cloud customer and expect to see your site at this address"
+		]
+	},
+	{
+		"service":"aftership",
+		"status": "Edge Case",
+		"cname":[
+			"aftership.com"
+		], 
+		"fingerprint":[
+			"Oops.</h2><p class=\"text-muted text-tight\">The page you're looking for doesn't exist."
+		]
+	},
+	{
+		"service":"Agile CRM",
+		"status": "Vulnerable",
+		"cname":[
+			"agilecrm.com"
+		], 
+		"fingerprint":[
+			"Sorry, this page is no longer available"
+		]
+	},
+	{
+		"service":"aha",
+		"status": "Edge Case",
+		"cname":[
+			"ideas.aha.io"
+		], 
+		"fingerprint":[
+			"There is no portal here ... sending you back to Aha!"
+		]
+	},
+	{
+		"service":"airee.ru",
+		"status": "Vulnerable",
+		"cname":[
+			"airee.ru"
+		], 
+		"fingerprint":[
+			"Ошибка 402. Сервис Айри.рф не оплачен",
+			"did not pay for the Airi.rf service. Access to the site is temporarily unavailable"
+		]
+	},
+	{
+		"service":"azure",
+		"status": "Vulnerable",
+		"cname":[
+			".cloudapp.net",
+			".cloudapp.azure.com",
+			".azurewebsites.net",
+			".blob.core.windows.net",
+			".cloudapp.azure.com",
+			".azure-api.net",
+			".azurehdinsight.net",
+			".azureedge.net",
+			".azurecontainer.io",
+			".database.windows.net",
+			".azuredatalakestore.net",
+			".search.windows.net",
+			".azurecr.io",
+			".redis.cache.windows.net",
+			".azurehdinsight.net",
+			".servicebus.windows.net",
+			".visualstudio.com",
+			".trafficmanager.net"
+		], 
+		"fingerprint":[
+			"404 Web Site not found.",
+			"Custom domain has not been configured inside Azure."
+		]
+	},
+	{
+		"service":"Bitbucket",
+		"status": "Vulnerable",
+		"cname":[
+			"bitbucket.io",
+			"bitbucket.org"
+		], 
+		"fingerprint":[
+			"Repository not found",
+			"The page you have requested does not exist"
+		]
+	},
+	{
+		"service":"bigcartel",
+		"status": "Edge Case",
+		"cname":[
+			"bigcartel.com"
+		], 
+		"fingerprint":[
+			"<h1>Oops! We could&#8217;t find that page.</h1>"
+		]
+	},
+	{
+		"service":"brightcove",
+		"status": "Edge Case",
+		"cname":[
+			"bcvp0rtal.com",
+			"brightcovegallery.com",
+			"gallery.video"
+		], 
+		"fingerprint":[
+			"<p class=\"bc-gallery-error-code\">Error Code: 404</p>"
+		]
+	},
+	{
+		"service":"Campaign Monitor",
+		"status": "Vulnerable",
+		"cname":[
+			"createsend.com"
+		], 
+		"fingerprint":[
+			"Trying to access your account?",
+			"Double check the URL or <a href=\"mailto:help@createsend.com"
+		]
+	},
+	{
+		"service":"Cargo",
+		"status": "Vulnerable",
+		"cname":[
+			"cargo.site",
+			"cargocollective.com"
+		], 
+		"fingerprint":[
+			"Once completed, this domain will automatically display your Cargo site",
+			"Connect it by adding it to your Settings",
+			"This domain has been configured for use by"
+		]
+	},
+	{
+		"service":"Feedpress",
+		"status": "Vulnerable",
+		"cname":[
+			"redirect.feedpress.me"
+		], 
+		"fingerprint":[
+			"The feed has not been found"
+		]
+	},
+	{
+		"service":"Fly.io",
+		"status": "Vulnerable",
+		"cname":[
+			"fly.io"
+		], 
+		"fingerprint":[
+			"404 Not Found"
+		]
+	},
+	{
+		"service":"getresponse",
+		"status": "Edge Case",
+		"cname":[
+			"gr8.com"
+		], 
+		"fingerprint":[
+			"With GetResponse Landing Pages, lead generation has never been easier"
+		]
+	},
+	{
+		"service":"Gemfury",
+		"status": "Vulnerable",
+		"cname":[
+			"fury.io",
+			"furyns.com"
+		], 
+		"fingerprint":[
+			"404: This page could not be found"
+		]
+	},
+	{
+		"service":"Ghost",
+		"status": "Vulnerable",
+		"cname":[
+			"ghost.io"
+		], 
+		"fingerprint":[
+			"The thing you were looking for is no longer here",
+			"The thing you were looking for is no longer here, or never was"
+		]
+	},
+	{
+		"service":"Github",
+		"status": "Vulnerable",
+		"cname":[
+			"github.io"
+		], 
+		"fingerprint":[
+			"There isn't a GitHub Pages site here"
+		]
+	},
+	{
+		"service":"HatenaBlog",
+		"status": "Vulnerable",
+		"cname":[
+			"hatenablog.com"
+		], 
+		"fingerprint":[
+			"404 Blog is not found"
+		]
+	},
+	{
+		"service":"Help Juice",
+		"status": "Vulnerable",
+		"cname":[
+			"helpjuice.com"
+		], 
+		"fingerprint":[
+			"We could not find what you're looking for."
+		]
+	},
+	{
+		"service":"Help Scout",
+		"status": "Vulnerable",
+		"cname":[
+			"helpscoutdocs.com"
+		], 
+		"fingerprint":[
+			"No settings were found for this company:"
+		]
+	},
+	{
+		"service":"Heroku",
+		"status": "Edge Case",
+		"cname":[
+			"herokudns.com",
+			"herokussl.com",
+			"herokuapp.com"
+		], 
+		"fingerprint":[
+			"There's nothing here, yet.", 
+			"herokucdn.com/error-pages/no-such-app.html", 
+			"<title>No such app</title>"
+		]
+	},
+	{
+		"service":"hubspot",
+		"status": "Edge Case",
+		"cname":[
+			"hubspot.net"
+		], 
+		"fingerprint":[
+			"This page isn’t available",
+			"does not exist in our system"
+		]
+	},
+	{
+		"service":"Intercom",
+		"status": "Vulnerable",
+		"cname":[
+			"intercom.io",
+			"custom.intercom.help"
+		], 
+		"fingerprint":[
+			"Uh oh. That page doesn't exist.",
+			"This page is reserved for artistic dogs.",
+			"<h1 class=\"headline\"Uh oh. That page doesn't exist.</h1>"
+		]
+	},
+	{
+		"service":"JetBrains",
+		"status": "Vulnerable",
+		"cname":[
+			"myjetbrains.com"
+		], 
+		"fingerprint":[
+			"is not a registered InCloud YouTrack."
+		]
+	},
+	{
+		"service":"kajabi",
+		"status": "Edge Case",
+		"cname":[
+			"mykajabi.com"
+		], 
+		"fingerprint":[
+			"<h1>The page you were looking for doesn't exist.</h1>"
+		]
+	},
+	{
+		"service":"Kinsta",
+		"status": "Vulnerable",
+		"cname":[
+			"kinsta.com"
+		], 
+		"fingerprint":[
+			"No Site For Domain"
+		]
+	},
+	{
+		"service":"LaunchRock",
+		"status": "Vulnerable",
+		"cname":[
+			"launchrock.com"
+		], 
+		"fingerprint":[
+			"It looks like you may have taken a wrong turn somewhere.",
+			"It looks like you may have taken a wrong turn somewhere. Don't worry...it happens to all of us."
+		]
+	},
+	{
+		"service":"Mashery",
+		"status": "Edge Case",
+		"cname":[
+			"mashery.com"
+		], 
+		"fingerprint":[
+			"Unrecognized domain",
+			"Unrecognized domain <strong>"
+		]
+	},
+	{
+		"service":"Netlify",
+		"status": "Edge Case",
+		"cname":[
+			".netlify.com"
+		], 
+		"fingerprint":[
+			"Not Found"
+		]
+	},
+	{
+		"service":"Ngrok",
+		"status": "Vulnerable",
+		"cname":[
+			".ngrok.io"
+		], 
+		"fingerprint":[
+			"Tunnel *.ngrok.io not found"
+		]
+	},
+	{
+		"service":"pantheonsite.io",
+		"status": "Vulnerable",
+		"cname":[
+			".pantheonsite.io"
+		], 
+		"fingerprint":[
+			"The gods are wise, but do not know of the site which you seek."
+		]
+	},
+	{
+		"service":"Pingdom",
+		"status": "Vulnerable",
+		"cname":[
+			".stats.pingdom.com"
+		], 
+		"fingerprint":[
+			"pingdom"
+		]
+	},
+	{
+		"service":"proposify",
+		"status": "Edge Case",
+		"cname":[
+			"proposify.biz"
+		], 
+		"fingerprint":[
+			"If you need immediate assistance, please contact <a href=\"mailto:support@proposify.biz"
+		]
+	},
+	{
+		"service":"Readme.io",
+		"status": "Vulnerable",
+		"cname":[
+			".readme.io"
+		], 
+		"fingerprint":[
+			"Project doesnt exist... yet!"
+		]
+	},
+	{
+		"service":"readthedocs",
+		"status": "Edge Case",
+		"cname":[
+			"readthedocs.io"
+		], 
+		"fingerprint":[
+			"is unknown to Read the Docs"
+		]
+	},
+	{
+		"service":"S3",
+		"status": "Vulnerable",
+		"cname":[
+			"amazonaws.com"
+		], 
+		"fingerprint":[
+			"NoSuchBucket",
+			"he specified bucket does not exist"
+		]
+	},
+	{
+		"service":"Shopify",
+		"status": "Edge Case",
+		"cname":[
+			".myshopify.com"
+		], 
+		"fingerprint":[
+			"Only one step left!",
+			"Sorry, this shop is currently unavailable."
+		]
+	},
+	{
+		"service":"simplebooklet",
+		"status": "Edge Case",
+		"cname":[
+			"simplebooklet.com"
+		], 
+		"fingerprint":[
+			"We can't find this <a href=\"https://simplebooklet.com"
+		]
+	},
+	{
+		"service":"Smart Job Board",
+		"status": "Vulnerable",
+		"cname":[
+			"smartjobboard.com",
+			"mysmartjobboard.com"
+		], 
+		"fingerprint":[
+			"This job board website is either expired or its domain name is invalid"
+		]
+	},
+	{
+		"service":"smartling",
+		"status": "Edge Case",
+		"cname":[
+			"smartling.com"
+		], 
+		"fingerprint":[
+			"Domain is not configured"
+		]
+	},
+	{
+		"service":"Strikingly",
+		"status": "Vulnerable",
+		"cname":[
+			".strikinglydns.com"
+		], 
+		"fingerprint":[
+			"Page not found - Strikingly",
+			"But if you're looking to build your own website",
+			"you've come to the right place"
+		]
+	},
+	{
+		"service":"Surge.sh",
+		"status": "Vulnerable",
+		"cname":[
+			".surge.sh"
+		], 
+		"fingerprint":[
+			"project not found"
+		]
+	},
+	{
+		"service":"surveygizmo",
+		"status": "Edge Case",
+		"cname":[
+			"privatedomain.sgizmo.com",
+			"privatedomain.surveygizmo.eu",
+			"privatedomain.sgizmoca.com"
+		], 
+		"fingerprint":[
+			"data-html-name"
+		]
+	},
+	{
+		"service":"tave",
+		"status": "Edge Case",
+		"cname":[
+			"clientaccess.tave.com"
+		], 
+		"fingerprint":[
+			"<h1>Error 404: Page Not Found</h1>"
+		]
+	},
+	{
+		"service":"Teamwork",
+		"status": "Edge Case",
+		"cname":[
+			"teamwork.com"
+		], 
+		"fingerprint":[
+			"Oops - We didn't find your site."
+		]
+	},
+	{
+		"service":"thinkific",
+		"status": "Edge Case",
+		"cname":[
+			"thinkific.com"
+		], 
+		"fingerprint":[
+			"You may have mistyped the address or the page may have moved."
+		]
+	},
+	{
+		"service":"tictail",
+		"status": "Edge Case",
+		"cname":[
+			"tictail.com",
+			"domains.tictail.com"
+		], 
+		"fingerprint":[
+			"Building a brand of your own?",
+			"to target URL: <a href=\"https://tictail.com",
+			"Start selling on Tictail."
+		]
+	},
+	{
+		"service":"Tilda",
+		"status": "Edge Case",
+		"cname":[
+			".tilda.ws",
+			".tilda.cc"
+		], 
+		"fingerprint":[
+			"Domain has been assigned",
+			"Please renew your subscription",
+			"put the domain name in the Domain tab"
+		]
+	},
+	{
+		"service":"Tumblr",
+		"status": "Edge Case",
+		"cname":[
+			".tumblr.com"
+		], 
+		"fingerprint":[
+			"There's nothing here.",
+			"Whatever you were looking for doesn't currently exist at this address"
+		]
+	},
+	{
+		"service":"Uberflip",
+		"status": "Vulnerable",
+		"cname":[
+			".uberflip.com"
+		], 
+		"fingerprint":[
+			"Non-hub domain, The URL you've accessed does not provide a hub.",
+			"The URL you've accessed does not provide a hub. Please check the URL and try again."
+		]
+	},
+	{
+		"service":"Unbounce",
+		"status": "Edge Case",
+		"cname":[
+			".unbouncepages.com"
+		], 
+		"fingerprint":[
+			"The requested URL was not found on this server.",
+			"The requested URL / was not found on this server."
+		]
+	},
+	{
+		"service":"Uptimerobot",
+		"status": "Vulnerable",
+		"cname":[
+			".uptimerobot.com"
+		], 
+		"fingerprint":[
+			"page not found"
+		]
+	},
+	{
+		"service":"UserVoice",
+		"status": "Vulnerable",
+		"cname":[
+			".uservoice.com"
+		], 
+		"fingerprint":[
+			"This UserVoice subdomain is currently available!"
+		]
+	},
+	{
+		"service":"vend",
+		"status": "Edge Case",
+		"cname":[
+			"vendecommerce.com"
+		], 
+		"fingerprint":[
+			"Looks like you've traveled too far into cyberspace"
+		]
+	},
+	{
+		"service":"Webflow",
+		"status": "Edge Case",
+		"cname":[
+			"proxy.webflow.io",
+			"proxy.webflow.com",
+			"proxy-ssl.webflow.com"
+		], 
+		"fingerprint":[
+			"The page you are looking for doesn't exist or has been moved.",
+			"<p class=\"description\">The page you are looking for doesn't exist or has been moved.</p>"
+		]
+	},
+	{
+		"service":"wishpond",
+		"status": "Edge Case",
+		"cname":[
+			"wishpond.com"
+		], 
+		"fingerprint":[
+			"https://www.wishpond.com/404?campaign=true"
+		]
+	},
+	{
+		"service":"Wordpress",
+		"status": "Vulnerable",
+		"cname":[
+			"wordpress.com"
+		], 
+		"fingerprint":[
+			"Do you want to register",
+			"Do you want to register *.wordpress.com?",
+			"Domain mapping upgrade for this domain not found"
+		]
+	},
+	{
+		"service":"Worksites",
+		"status": "Vulnerable",
+		"cname":[
+			"worksites"
+		], 
+		"fingerprint":[
+			"Company Not Found",
+			"Hello! Sorry, but the website you&rsquo;re looking for doesn&rsquo;t exist.",
+			"Hello! Sorry, but the website you&rsquo;re looking for doesn&rsquo;t exist.</p>\n<a href=\"https://worksites.net/\">Learn more about Worksites.net"
+		]
+	}
+]
