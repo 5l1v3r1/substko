@@ -7,6 +7,7 @@ import (
 	"io/ioutil"
 	"net/http"
 	"os"
+	"path"
 
 	"github.com/drsigned/substko/pkg/substko"
 )
@@ -15,6 +16,19 @@ import (
 func Update(fingerprintsPath string) (bool, error) {
 	fingerprintsURL := "https://raw.githubusercontent.com/drsigned/substko/main/static/fingerprints.json"
 
+	if _, err := os.Stat(fingerprintsPath); os.IsNotExist(err) {
+		directory, _ := path.Split(fingerprintsPath)
+
+		if _, err := os.Stat(directory); os.IsNotExist(err) {
+			if directory != "" {
+				err = os.MkdirAll(directory, os.ModePerm)
+				if err != nil {
+					return false, err
+				}
+			}
+		}
+	}
+
 	fingerprintsFile, err := os.Create(fingerprintsPath)
 	if err != nil {
 		return false, err
@@ -22,18 +36,18 @@ func Update(fingerprintsPath string) (bool, error) {
 
 	defer fingerprintsFile.Close()
 
-	resp, err := http.Get(fingerprintsURL)
+	res, err := http.Get(fingerprintsURL)
 	if err != nil {
 		return false, err
 	}
 
-	if resp.StatusCode != 200 {
+	if res.StatusCode != 200 {
 		return false, errors.New("unexpected code")
 	}
 
-	defer resp.Body.Close()
+	defer res.Body.Close()
 
-	_, err = io.Copy(fingerprintsFile, resp.Body)
+	_, err = io.Copy(fingerprintsFile, res.Body)
 	if err != nil {
 		return false, err
 	}

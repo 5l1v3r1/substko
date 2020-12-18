@@ -46,39 +46,31 @@ func init() {
 	}
 
 	flag.StringVar(&co.fingerprintsFile, "f", dir+"/.substko/fingerprints.json", "")
-	flag.StringVar(&co.fingerprintsFile, "fingerprints", dir+"/.substko/fingerprints.json", "")
 	flag.IntVar(&co.concurrency, "c", 20, "")
-	flag.IntVar(&co.concurrency, "concurrency", 20, "")
 	flag.BoolVar(&so.HTTPS, "https", false, "")
-	flag.BoolVar(&co.silent, "s", false, "")
 	flag.BoolVar(&co.silent, "silent", false, "")
 	flag.StringVar(&co.targetsListFile, "l", "", "")
-	flag.StringVar(&co.targetsListFile, "list", "", "")
 	flag.BoolVar(&co.noColor, "nc", false, "")
-	flag.BoolVar(&co.noColor, "no-color", false, "")
-	flag.IntVar(&so.Timeout, "t", 10, "")
 	flag.IntVar(&so.Timeout, "timeout", 10, "")
 	flag.BoolVar(&co.updateFingerprints, "u", false, "")
-	flag.BoolVar(&co.updateFingerprints, "update-fingerprints", false, "")
 	flag.BoolVar(&co.verbose, "v", false, "")
-	flag.BoolVar(&co.verbose, "verbose", false, "")
 
 	flag.Usage = func() {
 		banner()
 
-		h := "Usage:\n"
+		h := "USAGE:\n"
 		h += "  substko [OPTIONS]\n"
 
-		h += "\nOptions:\n"
-		h += "   -c, --concurrency           concurrency level (default: 20)\n"
-		h += "   -f, --fingerprints          path to fingerprints file\n"
-		h += "       --https                 force HTTPS connection (default: false)\n"
-		h += "   -l, --list                  targets list\n"
-		h += "  -nc, --no-color              no color mode (default: false)\n"
-		h += "   -s, --silent                silent mode\n"
-		h += "   -t, --timeout               HTTP timeout in seconds (default: 10)\n"
-		h += "   -u, --update-fingerprints   download/update fingerprints\n"
-		h += "   -v, --verbose               verbose mode\n"
+		h += "\nOPTIONS:\n"
+		h += "  -c               concurrency level (default: 20)\n"
+		h += "  -f               path to fingerprints file\n"
+		h += "  -https           force HTTPS connection (default: false)\n"
+		h += "  -l               targets list\n"
+		h += "  -nc              no color mode (default: false)\n"
+		h += "  -silent          silent mode\n"
+		h += "  -timeout         HTTP timeout in seconds (default: 10)\n"
+		h += "  -u               download/update fingerprints\n"
+		h += "  -v               verbose mode\n"
 
 		fmt.Fprintf(os.Stderr, h)
 	}

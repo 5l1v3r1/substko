@@ -17,13 +17,6 @@ type Fingerprint struct {
 	Fingerprint []string `json:"fingerprint"`
 }
 
-// Options is a
-type Options struct {
-	HTTPS        bool
-	Timeout      int
-	Fingerprints []Fingerprint
-}
-
 // CheckNSSTKO is a
 func CheckNSSTKO(target string) (status string, STKOType string, at string, err error) {
 	// 1. Resolve all nameservers for the domain
