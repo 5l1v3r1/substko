@@ -21,7 +21,7 @@ substko is a subdomain takeover discovery tool written in Go. It takes in a list
 
 #### From Binary
 
-You can download the pre-built binary for your platform from this repository's [Releases](https://github.com/drsigned/substko/releases/) page, extract, then move it to your `$PATH`and you're ready to go.
+You can download the pre-built binary for your platform from this repository's [releases](https://github.com/drsigned/substko/releases/) page, extract, then move it to your `$PATH`and you're ready to go.
 
 #### From Source
 
@@ -41,21 +41,30 @@ $ git clone https://github.com/drsigned/substko.git; cd substko/cmd/substko/; go
 
 To display help message for substko use the `-h` flag:
 
-```bash
-$ substko -h
 ```
+$ substko -h
 
-| Flag                     | Description                              | Example                              |
-| :----------------------- | :--------------------------------------- | :----------------------------------- |
-| -c, --concurrency         | concurrency level (default: 20)         | `substko -l subdomains.txt -c 100`               |
-| -f, --fingerprints        | path to fingerprints file               | `substko -l subdomains.txt -f fingerprints.json` |
-| --https                   | force HTTPS connection (default: false) | `substko -l subdomains.txt --https`              |
-| -l, --list                | targets list                            | `substko -l subdomains.txt`                      |
-| -nc, --no-color           | no color mode (default: false)          | `substko -l subdomains.txt -nc`                  |
-| -s, --silent              | silent mode                             | `substko -l subdomains.txt -s`                   |
-| -t, --timeout             | HTTP timeout in seconds (default: 10)   | `substko -l subdomains.txt -t 10`                |
-| -u, --update-fingerprints | download/update fingerprints            | `substko -u` |
-| -v, --verbose             | verbose mode                            | `substko -l subdomains.txt -v`                   |
+           _         _   _
+ ___ _   _| |__  ___| |_| | _____
+/ __| | | | '_ \/ __| __| |/ / _ \
+\__ \ |_| | |_) \__ \ |_|   < (_) |
+|___/\__,_|_.__/|___/\__|_|\_\___/ v1.1.0
+
+USAGE:
+  substko [OPTIONS]
+
+OPTIONS:
+  -c               concurrency level (default: 20)
+  -f               path to fingerprints file
+  -https           force HTTPS connection (default: false)
+  -l               targets list
+  -nc              no color mode (default: false)
+  -silent          silent mode
+  -timeout         HTTP timeout in seconds (default: 10)
+  -u               download/update fingerprints
+  -v               verbose mode
+
+```
 
 **Note:** domains can be also be provided by piping them into substko from stdin.
 ## Contribution
